@@ -1,0 +1,22 @@
+a, a:visited {
+  display: inline-block;
+  color: $color__black;
+  text-decoration: none;
+  @include transition(0.3s);
+  position: relative;
+
+  .fas {
+    @include transition(0.3s)
+  }
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+button, a.button {
+  background: transparentize($color__black, 0.2);
+  border-radius: 10px;
+  padding: 10px 24px;
+  color: $color__white;
+}

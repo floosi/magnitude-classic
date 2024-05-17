@@ -1,0 +1,8 @@
+.page {
+  .post-thumbnail {
+
+    img {
+      @include img-cover
+    }
+  }
+}

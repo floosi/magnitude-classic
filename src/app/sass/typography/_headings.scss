@@ -1,0 +1,41 @@
+h1,
+h2,
+h3,
+h4 {
+  font-family: $font-fam__title;
+  margin: 0.6em 0;
+	font-weight: $font-weight__base;
+  letter-spacing: $letter-spacing;
+  color: $color__black;
+  display: block;
+  max-width: 100%; //IE 10 fix
+}
+
+h1{
+  font-size: $font-size__xxl;
+}
+
+h2 {
+  font-size: $font-size__xl;
+}
+
+h3 {
+  font-size: $font-size__l;
+}
+
+h4 {
+  font-size: $font-size__m;
+  margin: 0.4em 0
+}
+
+.f-m {
+  font-size: $font-size__m
+}
+
+.f-l {
+  font-size: $font-size__l
+}
+
+.f-xl {
+  font-size: $font-size__xl
+}

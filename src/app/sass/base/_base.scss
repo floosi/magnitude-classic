@@ -1,0 +1,43 @@
+//Normalize
+@import "normalize";
+
+@import "clearings";
+
+@import "alignments";
+
+@import "accessibility";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+  &:before,
+  &:after {
+    box-sizing: inherit
+  }
+}
+
+html {
+  line-height: 1.5;
+  -webkit-text-size-adjust: 100%
+}
+
+body {
+  font-family: $font-fam__body;
+  font-weight: $font-weight__base;
+  color: $color__black;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  font-size: 16px;
+
+  @include breakpoint($bp-medium) {
+    font-size: 17px;
+  }
+  @include breakpoint($bp-xl) {
+    font-size: 18px;
+  }
+}
+
+@import "structure";

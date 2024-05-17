@@ -1,0 +1,23 @@
+.masthead {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 30px 20px;
+  z-index: 999;
+
+  .wrapper {
+    background: transparentize($color__black, 0.6);
+    backdrop-filter: blur(5px);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .brand {
+      display: block;
+    }
+  }
+}

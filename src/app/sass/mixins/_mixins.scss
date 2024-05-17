@@ -1,0 +1,87 @@
+// Clear after (not all clearfix need this also)
+@mixin clearfix() {
+	clear: both;
+}
+
+// Center block
+@mixin center-block {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+// Rem output with px fallback
+@mixin font-size($sizeValue: 1) {
+	font-size: ($sizeValue * 16) * 1px;
+	font-size: $sizeValue * 1rem;
+}
+
+@mixin transition($time) {
+  transition: all ease $time;
+}
+@mixin container-columns {
+	grid-template-columns: 1fr minmax(auto, 82em) 1fr;
+
+	// @include breakpoint($bp-medium) {
+	// 	grid-template-columns: 1fr repeat(2, minmax(auto, 36em)) 1fr;
+	// }
+}
+
+@mixin center {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+@mixin equal {
+	display: flex;
+	overflow: visible;
+	position: relative;
+	flex-wrap: wrap
+}
+
+@mixin img-cover {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+@mixin linear-gradient($color_left, $color_right) {
+	background: $color_right;
+	background: linear-gradient(to right, $color_left 0%,$color_right 100%);
+}
+
+//Curve for hero
+@mixin hero-curve {
+	clip-path: ellipse(250% 100% at 50% 0%);
+
+	@include breakpoint($bp-medium) {
+		clip-path: ellipse(120% 100% at 50% 0%);
+	}
+}
+
+@mixin placeholder {
+    &::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+        @content;
+    }
+    &::-moz-placeholder { /* Firefox 19+ */
+        @content;
+    }
+    &:-ms-input-placeholder { /* IE 10+ */
+        @content;
+    }
+    &:-moz-placeholder { /* Firefox 18- */
+        @content;
+    }
+    &::placeholder {
+        @content;
+    }
+}
+
+@mixin quote {
+	text-align: right;
+	font-family: $font-fam__base;
+	font-size: $font-size__xxl;
+	letter-spacing: $letter-spacing-half;
+	font-style: italic
+}
