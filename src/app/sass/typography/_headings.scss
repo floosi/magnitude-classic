@@ -4,9 +4,8 @@ h3,
 h4 {
   font-family: $font-fam__title;
   margin: 0.6em 0;
-	font-weight: $font-weight__base;
-  letter-spacing: $letter-spacing;
-  color: $color__black;
+	font-weight: bold;
+  color: $color__pale-green;
   display: block;
   max-width: 100%; //IE 10 fix
 }

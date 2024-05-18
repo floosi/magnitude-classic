@@ -26,18 +26,52 @@ html {
 body {
   font-family: $font-fam__body;
   font-weight: $font-weight__base;
-  color: $color__black;
+  color: $color__pale-green;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   position: relative;
   font-size: 16px;
+  background: $color__black;
+}
 
-  @include breakpoint($bp-medium) {
-    font-size: 17px;
-  }
-  @include breakpoint($bp-xl) {
-    font-size: 18px;
-  }
+.rogue {
+  color: $color__rogue;
+}
+
+.paladin {
+  color: $color__paladin;
+}
+
+.mage {
+  color: $color__mage;
+}
+
+.deathknight {
+  color: $color__deathknight;
+}
+
+.shaman {
+  color: $color__shaman;
+}
+
+.warlock {
+  color: $color__warlock;
+}
+
+.druid {
+  color: $color__druid;
+}
+
+.priest {
+  color: $color__priest;
+}
+
+.warrior {
+  color: $color__warrior;
+}
+
+.hunter {
+  color: $color__hunter;
 }
 
 @import "structure";

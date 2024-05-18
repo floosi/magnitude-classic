@@ -1,5 +1,12 @@
-footer#footer {
+.footer {
+  background: $color__darkest-black;
+  margin-top: 40px;
 
+  div {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+  }
 }
 
 .legacy-browser-notice {

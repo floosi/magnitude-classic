@@ -16,7 +16,9 @@ a, a:visited {
 
 button, a.button {
   background: transparentize($color__black, 0.2);
-  border-radius: 10px;
-  padding: 10px 24px;
-  color: $color__white;
+  border-radius: 8px;
+  padding: 12px 24px;
+  color: $color__pale-green;
+  text-transform: uppercase;
+  font-weight: bold;
 }

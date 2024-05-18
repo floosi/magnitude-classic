@@ -100,7 +100,8 @@ span {
 
   @supports (display:grid) {
     grid-template-columns: 1fr;
-    grid-gap: 20px;
+    grid-column-gap: 25px;
+    grid-row-gap: 20px;
   }
 
   @include breakpoint( $bp-medium ) {

@@ -1,7 +1,12 @@
 // Hero
 .hero {
   position: relative;
-  height: 600px;
+  height: 85vh;
+  min-height: 550px;
+
+  @include breakpoint($bp-medium) {
+    min-height: 730px;
+  }
 
   .overlay {
     display: block;
@@ -11,18 +16,25 @@
     height: 100%;
     top: 0;
     left: 0;
-    background: transparentize($color__black, 0.6);
+    background: $color__dark-green;
     mix-blend-mode: overlay;
+    opacity: .2;
     z-index: 2;
   }
 
-  img {
+  > img {
     position: absolute;
     @include img-cover;
+    object-position: bottom;
+    filter: saturate(1.3);
   }
 
   .intro {
     align-self: end;
+    position: relative;
+    bottom: 130px;
     z-index: 3;
+    justify-content: center;
+    display: flex;
   }
 }

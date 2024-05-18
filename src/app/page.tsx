@@ -1,5 +1,4 @@
 import Image from "next/image";
-import clsx from "clsx";
 import styles from "./sass/layouts/_layouts.module.scss";
 import Link from "next/link";
 
@@ -10,10 +9,10 @@ export default function Home() {
         <div className={styles.wrapper + ' container ph'}>
           <Link href="/">
             <Image
-              src="/icon.png"
+              src="/icon.svg"
               alt="Magnitude Logo"
               className={styles.brand}
-              width={60}
+              width={40}
               height={60}
               priority
             />
@@ -31,15 +30,221 @@ export default function Home() {
         <div className={styles.overlay}></div>
 
         <div className={styles.intro + ' container ph'}>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt officiis eveniet inventore atque doloremque, iste eum aperiam deleniti molestiae, adipisci veritatis veniam explicabo labore, dolore omnis qui sed facere vero.</p>
+        <Image src="/logo.svg" alt="Magnitude Logo" width="250" height="160" />
         </div>
       </section>
 
-      <section className={styles.roster + 'section section-pv'}>
-        <div className="container ph">
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum facere numquam saepe, architecto ratione mollitia consequuntur unde. Quasi eius delectus fuga non consequuntur, ex, expedita odio, nisi corporis cumque et.</p>
+      <section className={styles.progress + ' section section-pb'}>
+        <div className={styles.wrapper + ' container ph pv textcenter'}>
+          <h2>Raid Progress</h2>
+          <div className="col col-3">
+            <div className={styles.raid}>
+              <p>Blackwing Descent</p>
+              <div className={styles.count}><span className={styles.normal}>0/6</span>10N</div>
+            </div>
+            <div className={styles.raid}>
+              <p>Throne of the Four Winds</p>
+              <div className={styles.count}><span className={styles.normal}>0/2</span>10N</div>
+            </div>
+            <div className={styles.raid}>
+              <p>The Bastion of Twilight</p>
+              <div className={styles.count}><span className={styles.normal}>0/4</span>10N</div>
+            </div>
+          </div>
         </div>
       </section>
+
+      <section className={'section section-pb'}>
+        <div className="container ph">
+          <h2 className="textcenter">The Team</h2>
+          <div className="col col-3">
+            <div className={styles.player}>
+              <Image
+                src="/rogue_crest.png"
+                alt=""
+                className={styles.icon}
+                width={75}
+                height={75}
+                priority
+              />
+              <div className={styles.text}>
+                <h3 className="rogue">Religoth</h3>
+                <p>Raid Leader</p>
+              </div>
+            </div>
+            <div className={styles.player}>
+              <Image
+                src="/paladin_crest.png"
+                alt=""
+                className={styles.icon}
+                width={75}
+                height={75}
+                priority
+              />
+              <div className={styles.text}>
+                <h3 className="paladin">Foxicity</h3>
+                <p>Officer</p>
+              </div>
+            </div>
+            <div className={styles.player}>
+              <Image
+                src="/mage_crest.png"
+                alt=""
+                className={styles.icon}
+                width={75}
+                height={75}
+                priority
+              />
+              <div className={styles.text}>
+                <h3 className="mage">Floosi</h3>
+                <p>Officer</p>
+              </div>
+            </div>
+            <div className={styles.player}>
+              <Image
+                src="/death_knight_crest.png"
+                alt=""
+                className={styles.icon}
+                width={75}
+                height={75}
+                priority
+              />
+              <div className={styles.text}>
+                <h3 className="deathknight">Khemodeath</h3>
+                <p>Raider</p>
+              </div>
+            </div>
+            <div className={styles.player}>
+              <Image
+                src="/mage_crest.png"
+                alt=""
+                className={styles.icon}
+                width={75}
+                height={75}
+                priority
+              />
+              <div className={styles.text}>
+                <h3 className="mage">Elzorino</h3>
+                <p>Raider</p>
+              </div>
+            </div>
+            <div className={styles.player}>
+              <Image
+                src="/shaman_crest.png"
+                alt=""
+                className={styles.icon}
+                width={75}
+                height={75}
+                priority
+              />
+              <div className={styles.text}>
+                <h3 className="shaman">Badwave</h3>
+                <p>Raider</p>
+              </div>
+            </div>
+            <div className={styles.player}>
+              <Image
+                src="/warlock_crest.png"
+                alt=""
+                className={styles.icon}
+                width={75}
+                height={75}
+                priority
+              />
+              <div className={styles.text}>
+                <h3 className="warlock">Scoottlock</h3>
+                <p>Raider</p>
+              </div>
+            </div>
+            <div className={styles.player}>
+              <Image
+                src="/druid_crest.png"
+                alt=""
+                className={styles.icon}
+                width={75}
+                height={75}
+                priority
+              />
+              <div className={styles.text}>
+                <h3 className="druid">Duald</h3>
+                <p>Raider</p>
+              </div>
+            </div>
+            <div className={styles.player}>
+              <Image
+                src="/paladin_crest.png"
+                alt=""
+                className={styles.icon}
+                width={75}
+                height={75}
+                priority
+              />
+              <div className={styles.text}>
+                <h3 className="paladin">Krugpal</h3>
+                <p>Raider</p>
+              </div>
+            </div>
+            <div className={styles.player}>
+              <Image
+                src="/death_knight_crest.png"
+                alt=""
+                className={styles.icon}
+                width={75}
+                height={75}
+                priority
+              />
+              <div className={styles.text}>
+                <h3 className="deathknight">Scottnicebum</h3>
+                <p>Raider</p>
+              </div>
+            </div>
+            <div className={styles.player}>
+              <Image
+                src="/priest_crest.png"
+                alt=""
+                className={styles.icon}
+                width={75}
+                height={75}
+                priority
+              />
+              <div className={styles.text}>
+                <h3 className="priest">Arylana</h3>
+                <p>Raider</p>
+              </div>
+            </div>
+            <div className={styles.player}>
+              <Image
+                src="/warrior_crest.png"
+                alt=""
+                className={styles.icon}
+                width={75}
+                height={75}
+                priority
+              />
+              <div className={styles.text}>
+                <h3 className="warrior">Dønny</h3>
+                <p>Raider</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer className={styles.footer + ' section section-pv'}>
+        <div className="container ph">
+          <Link href="/">
+            <Image
+              src="/icon.svg"
+              alt="Magnitude Logo"
+              className={styles.brand}
+              width={40}
+              height={60}
+              priority
+            />
+          </Link>
+          <p>© Magnitude 2024 | All rights reserved.</p>
+        </div>
+      </footer>
 
 
     </main>
