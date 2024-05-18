@@ -18,6 +18,7 @@ import priest from '../../public/priest_crest.png';
 import warrior from '../../public/warrior_crest.png';
 import hunter from '../../public/hunter_crest.png';
 import discord from '../../public/discord-icon.svg';
+import raiderio from '../../public/raiderio-icon.svg';
 
 
 export default function Home() {
@@ -93,8 +94,21 @@ export default function Home() {
                 priority
               />
               <div className={styles.text}>
-                <h3 className="rogue">Religoth</h3>
-                <p>Raid Leader</p>
+                <div>
+                  <h3 className="rogue">Religoth</h3>
+                  <p>Raid Leader</p>
+                </div>
+                <div className={styles.links}>
+                  <a href="https://classic.raider.io/characters/eu/golemagg/Religoth" target="blank">
+                    <Image
+                      src={raiderio}
+                      alt=""
+                      width={16}
+                      height={16}
+                      priority
+                    />
+                  </a>
+                </div>
               </div>
             </div>
             <div className={styles.player}>
@@ -107,8 +121,21 @@ export default function Home() {
                 priority
               />
               <div className={styles.text}>
-                <h3 className="paladin">Foxicity</h3>
-                <p>Officer</p>
+                <div>
+                  <h3 className="paladin">Foxicity</h3>
+                  <p>Officer</p>
+                </div>
+                <div className={styles.links}>
+                  <a href="https://classic.raider.io/characters/eu/golemagg/Foxicity" target="blank">
+                    <Image
+                      src={raiderio}
+                      alt=""
+                      width={16}
+                      height={16}
+                      priority
+                    />
+                  </a>
+                </div>
               </div>
             </div>
             <div className={styles.player}>
@@ -121,8 +148,21 @@ export default function Home() {
                 priority
               />
               <div className={styles.text}>
-                <h3 className="mage">Floosi</h3>
-                <p>Officer</p>
+                <div>
+                  <h3 className="mage">Floosi</h3>
+                  <p>Officer</p>
+                </div>
+                <div className={styles.links}>
+                  <a href="https://classic.raider.io/characters/eu/golemagg/Floosi" target="blank">
+                    <Image
+                      src={raiderio}
+                      alt=""
+                      width={16}
+                      height={16}
+                      priority
+                    />
+                  </a>
+                </div>
               </div>
             </div>
             <div className={styles.player}>
@@ -135,8 +175,21 @@ export default function Home() {
                 priority
               />
               <div className={styles.text}>
-                <h3 className="deathknight">Khemodeath</h3>
-                <p>Raider</p>
+                <div>
+                  <h3 className="deathknight">Khemodeath</h3>
+                  <p>Raider</p>
+                </div>
+                <div className={styles.links}>
+                  <a href="https://classic.raider.io/characters/eu/golemagg/Khemodeath" target="blank">
+                    <Image
+                      src={raiderio}
+                      alt=""
+                      width={16}
+                      height={16}
+                      priority
+                    />
+                  </a>
+                </div>
               </div>
             </div>
             <div className={styles.player}>
@@ -149,8 +202,21 @@ export default function Home() {
                 priority
               />
               <div className={styles.text}>
-                <h3 className="mage">Elzorino</h3>
-                <p>Raider</p>
+                <div>
+                  <h3 className="mage">Elzorino</h3>
+                  <p>Raider</p>
+                </div>
+                <div className={styles.links}>
+                  <a href="https://classic.raider.io/characters/eu/golemagg/Elzorino" target="blank">
+                    <Image
+                      src={raiderio}
+                      alt=""
+                      width={16}
+                      height={16}
+                      priority
+                    />
+                  </a>
+                </div>
               </div>
             </div>
             <div className={styles.player}>
@@ -163,8 +229,21 @@ export default function Home() {
                 priority
               />
               <div className={styles.text}>
-                <h3 className="shaman">Badwave</h3>
-                <p>Raider</p>
+                <div>
+                  <h3 className="shaman">Badwave</h3>
+                  <p>Raider</p>
+                </div>
+                <div className={styles.links}>
+                  <a href="https://classic.raider.io/characters/eu/golemagg/Badwave" target="blank">
+                    <Image
+                      src={raiderio}
+                      alt=""
+                      width={16}
+                      height={16}
+                      priority
+                    />
+                  </a>
+                </div>
               </div>
             </div>
             <div className={styles.player}>
@@ -177,8 +256,21 @@ export default function Home() {
                 priority
               />
               <div className={styles.text}>
-                <h3 className="warlock">Scoottlock</h3>
-                <p>Raider</p>
+                <div>
+                  <h3 className="warlock">Scoottlock</h3>
+                  <p>Raider</p>
+                </div>
+                <div className={styles.links}>
+                  <a href="https://classic.raider.io/characters/eu/golemagg/Scoottlock" target="blank">
+                    <Image
+                      src={raiderio}
+                      alt=""
+                      width={16}
+                      height={16}
+                      priority
+                    />
+                  </a>
+                </div>
               </div>
             </div>
             <div className={styles.player}>
@@ -191,8 +283,21 @@ export default function Home() {
                 priority
               />
               <div className={styles.text}>
-                <h3 className="druid">Duald</h3>
-                <p>Raider</p>
+                <div>
+                  <h3 className="druid">Duald</h3>
+                  <p>Raider</p>
+                </div>
+                <div className={styles.links}>
+                  <a href="https://classic.raider.io/characters/eu/golemagg/Duald" target="blank">
+                    <Image
+                      src={raiderio}
+                      alt=""
+                      width={16}
+                      height={16}
+                      priority
+                    />
+                  </a>
+                </div>
               </div>
             </div>
             <div className={styles.player}>
@@ -205,8 +310,21 @@ export default function Home() {
                 priority
               />
               <div className={styles.text}>
-                <h3 className="paladin">Krugpal</h3>
-                <p>Raider</p>
+                <div>
+                  <h3 className="paladin">Krugpal</h3>
+                  <p>Raider</p>
+                </div>
+                <div className={styles.links}>
+                  <a href="https://classic.raider.io/characters/eu/golemagg/Krugpal" target="blank">
+                    <Image
+                      src={raiderio}
+                      alt=""
+                      width={16}
+                      height={16}
+                      priority
+                    />
+                  </a>
+                </div>
               </div>
             </div>
             <div className={styles.player}>
@@ -219,8 +337,21 @@ export default function Home() {
                 priority
               />
               <div className={styles.text}>
-                <h3 className="deathknight">Scottnicebum</h3>
-                <p>Raider</p>
+                <div>
+                  <h3 className="deathknight">Scottnicebum</h3>
+                  <p>Raider</p>
+                </div>
+                <div className={styles.links}>
+                  <a href="https://classic.raider.io/characters/eu/golemagg/Scottnicebum" target="blank">
+                    <Image
+                      src={raiderio}
+                      alt=""
+                      width={16}
+                      height={16}
+                      priority
+                    />
+                  </a>
+                </div>
               </div>
             </div>
             <div className={styles.player}>
@@ -233,8 +364,21 @@ export default function Home() {
                 priority
               />
               <div className={styles.text}>
-                <h3 className="priest">Arylana</h3>
-                <p>Raider</p>
+                <div>
+                  <h3 className="priest">Arylana</h3>
+                  <p>Raider</p>
+                </div>
+                <div className={styles.links}>
+                  <a href="https://classic.raider.io/characters/eu/golemagg/Arylana" target="blank">
+                    <Image
+                      src={raiderio}
+                      alt=""
+                      width={16}
+                      height={16}
+                      priority
+                    />
+                  </a>
+                </div>
               </div>
             </div>
             <div className={styles.player}>
@@ -247,8 +391,21 @@ export default function Home() {
                 priority
               />
               <div className={styles.text}>
-                <h3 className="warrior">Dønny</h3>
-                <p>Raider</p>
+                <div>
+                  <h3 className="warrior">Dønny</h3>
+                  <p>Raider</p>
+                </div>
+                {/* <div className={styles.links}>
+                  <a href="https://classic.raider.io/characters/eu/golemagg/Floosi" target="blank">
+                    <Image
+                      src={raiderio}
+                      alt=""
+                      width={16}
+                      height={16}
+                      priority
+                    />
+                  </a>
+                </div> */}
               </div>
             </div>
             <div className={styles.player}>
@@ -261,8 +418,21 @@ export default function Home() {
                 priority
               />
               <div className={styles.text}>
-                <h3 className="hunter">Xenethe</h3>
-                <p>Raider</p>
+                <div>
+                  <h3 className="hunter">Xenethe</h3>
+                  <p>Raider</p>
+                </div>
+                {/* <div className={styles.links}>
+                  <a href="https://classic.raider.io/characters/eu/golemagg/Floosi" target="blank">
+                    <Image
+                      src={raiderio}
+                      alt=""
+                      width={16}
+                      height={16}
+                      priority
+                    />
+                  </a>
+                </div> */}
               </div>
             </div>
           </div>
