@@ -21,4 +21,9 @@ button, a.button {
   color: $color__pale-green;
   text-transform: uppercase;
   font-weight: bold;
+
+  &.disabled {
+    opacity: 0.4;
+    pointer-events: none;
+  }
 }

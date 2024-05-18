@@ -34,7 +34,7 @@ export default function Home() {
           </Link>
 
           <div className={styles.buttons}>
-            <a href="#" className="button">Join the team</a>
+            <a href="/" className="button disabled">Join the team</a>
           </div>
         </div> 
       </header>
