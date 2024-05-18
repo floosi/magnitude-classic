@@ -51,6 +51,10 @@
   justify-content: space-between;
   gap: 10px;
 
+  p {
+    font-weight: bold;
+  }
+
   .count {
     padding: 12px;
     background: $color__black;
