@@ -2,6 +2,10 @@ import Image from "next/image";
 import styles from "./sass/layouts/_layouts.module.scss";
 import Link from "next/link";
 
+import hero from '../../public/hero.png';
+import icon from '../../public/icon.svg';
+
+
 export default function Home() {
   return (
     <main>
@@ -9,7 +13,7 @@ export default function Home() {
         <div className={styles.wrapper + ' container ph'}>
           <Link href="/">
             <Image
-              src="/icon.svg"
+              src={icon}
               alt="Magnitude Logo"
               className={styles.brand}
               width={40}
@@ -26,7 +30,7 @@ export default function Home() {
 
 
       <section className={styles.hero + ' section section-pv'}>
-        <Image src="/hero.png" alt="Cataclysm Banner" width="1920" height="600" />
+        <Image src={hero} alt="Cataclysm Banner" width="1920" height="600" />
         <div className={styles.overlay}></div>
 
         <div className={styles.intro + ' container ph'}>
