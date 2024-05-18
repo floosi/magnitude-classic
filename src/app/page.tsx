@@ -4,6 +4,17 @@ import Link from "next/link";
 
 import hero from '../../public/hero.png';
 import icon from '../../public/icon.svg';
+import logo from '../../public/logo.svg';
+import rogue from '../../public/rogue_crest.png';
+import paladin from '../../public/paladin_crest.png';
+import mage from '../../public/mage_crest.png';
+import deathknight from '../../public/death_knight_crest.png';
+import shaman from '../../public/shaman_crest.png';
+import warlock from '../../public/warlock_crest.png';
+import druid from '../../public/druid_crest.png';
+import priest from '../../public/priest_crest.png';
+import warrior from '../../public/warrior_crest.png';
+import { Padauk } from "next/font/google";
 
 
 export default function Home() {
@@ -34,7 +45,7 @@ export default function Home() {
         <div className={styles.overlay}></div>
 
         <div className={styles.intro + ' container ph'}>
-        <Image src="/logo.svg" alt="Magnitude Logo" width="250" height="160" />
+        <Image src={logo} alt="Magnitude Logo" width="250" height="160" />
         </div>
       </section>
 
@@ -64,7 +75,7 @@ export default function Home() {
           <div className="col col-3">
             <div className={styles.player}>
               <Image
-                src="/rogue_crest.png"
+                src={rogue}
                 alt=""
                 className={styles.icon}
                 width={75}
@@ -78,7 +89,7 @@ export default function Home() {
             </div>
             <div className={styles.player}>
               <Image
-                src="/paladin_crest.png"
+                src={paladin}
                 alt=""
                 className={styles.icon}
                 width={75}
@@ -92,7 +103,7 @@ export default function Home() {
             </div>
             <div className={styles.player}>
               <Image
-                src="/mage_crest.png"
+                src={mage}
                 alt=""
                 className={styles.icon}
                 width={75}
@@ -106,7 +117,7 @@ export default function Home() {
             </div>
             <div className={styles.player}>
               <Image
-                src="/death_knight_crest.png"
+                src={deathknight}
                 alt=""
                 className={styles.icon}
                 width={75}
@@ -120,7 +131,7 @@ export default function Home() {
             </div>
             <div className={styles.player}>
               <Image
-                src="/mage_crest.png"
+                src={mage}
                 alt=""
                 className={styles.icon}
                 width={75}
@@ -134,7 +145,7 @@ export default function Home() {
             </div>
             <div className={styles.player}>
               <Image
-                src="/shaman_crest.png"
+                src={shaman}
                 alt=""
                 className={styles.icon}
                 width={75}
@@ -148,7 +159,7 @@ export default function Home() {
             </div>
             <div className={styles.player}>
               <Image
-                src="/warlock_crest.png"
+                src={warlock}
                 alt=""
                 className={styles.icon}
                 width={75}
@@ -162,7 +173,7 @@ export default function Home() {
             </div>
             <div className={styles.player}>
               <Image
-                src="/druid_crest.png"
+                src={druid}
                 alt=""
                 className={styles.icon}
                 width={75}
@@ -176,7 +187,7 @@ export default function Home() {
             </div>
             <div className={styles.player}>
               <Image
-                src="/paladin_crest.png"
+                src={paladin}
                 alt=""
                 className={styles.icon}
                 width={75}
@@ -190,7 +201,7 @@ export default function Home() {
             </div>
             <div className={styles.player}>
               <Image
-                src="/death_knight_crest.png"
+                src={deathknight}
                 alt=""
                 className={styles.icon}
                 width={75}
@@ -204,7 +215,7 @@ export default function Home() {
             </div>
             <div className={styles.player}>
               <Image
-                src="/priest_crest.png"
+                src={priest}
                 alt=""
                 className={styles.icon}
                 width={75}
@@ -218,7 +229,7 @@ export default function Home() {
             </div>
             <div className={styles.player}>
               <Image
-                src="/warrior_crest.png"
+                src={warrior}
                 alt=""
                 className={styles.icon}
                 width={75}
@@ -238,7 +249,7 @@ export default function Home() {
         <div className="container ph">
           <Link href="/">
             <Image
-              src="/icon.svg"
+              src={icon}
               alt="Magnitude Logo"
               className={styles.brand}
               width={40}
