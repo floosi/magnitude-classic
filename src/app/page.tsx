@@ -1,6 +1,8 @@
+"use client";
 import Image from "next/image";
 import styles from "./sass/layouts/_layouts.module.scss";
 import Link from "next/link";
+import { TwitchEmbed } from "react-twitch-embed";
 
 import hero from '../../public/hero.png';
 import icon from '../../public/icon.svg';
@@ -14,6 +16,7 @@ import warlock from '../../public/warlock_crest.png';
 import druid from '../../public/druid_crest.png';
 import priest from '../../public/priest_crest.png';
 import warrior from '../../public/warrior_crest.png';
+import hunter from '../../public/hunter_crest.png';
 import discord from '../../public/discord-icon.svg';
 
 
@@ -248,7 +251,43 @@ export default function Home() {
                 <p>Raider</p>
               </div>
             </div>
+            <div className={styles.player}>
+              <Image
+                src={hunter}
+                alt=""
+                className={styles.icon}
+                width={75}
+                height={75}
+                priority
+              />
+              <div className={styles.text}>
+                <h3 className="hunter">Xenethe</h3>
+                <p>Raider</p>
+              </div>
+            </div>
           </div>
+        </div>
+      </section>
+
+      <section className={'section section-pb'}>
+        <div className="container ph">
+          <h2 className="textcenter">Streamers</h2>
+         
+         
+          <TwitchEmbed
+            channel="thekkcraft"
+            darkMode
+            allowFullscreen={false}
+            withChat={false}
+            onAuthenticate={function noRefCheck(){}}
+            onVideoPause={function noRefCheck(){}}
+            onVideoPlay={function noRefCheck(){}}
+            onVideoReady={function noRefCheck(){}}
+            width="100%"
+            video=""
+          />
+
+          
         </div>
       </section>
 
