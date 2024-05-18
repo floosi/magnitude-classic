@@ -20,5 +20,12 @@
     .brand {
       display: block;
     }
+
+    .buttons {
+      a {
+        display: flex;
+        align-items: center;
+      }
+    }
   }
 }

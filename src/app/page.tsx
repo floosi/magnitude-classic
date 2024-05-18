@@ -14,7 +14,7 @@ import warlock from '../../public/warlock_crest.png';
 import druid from '../../public/druid_crest.png';
 import priest from '../../public/priest_crest.png';
 import warrior from '../../public/warrior_crest.png';
-import { Padauk } from "next/font/google";
+import discord from '../../public/discord-icon.svg';
 
 
 export default function Home() {
@@ -34,7 +34,14 @@ export default function Home() {
           </Link>
 
           <div className={styles.buttons}>
-            <a href="/" className="button disabled">Join the team</a>
+            <a href="https://discord.gg/AaCcf5K6PB" target="blank" className="button">
+              <Image
+              src={discord}
+              alt="discord"
+              width={40}
+              height={20}
+              priority
+            /> Join the team</a>
           </div>
         </div> 
       </header>
