@@ -66,15 +66,15 @@ export default function Home() {
           <div className="col col-3">
             <div className={styles.raid}>
               <p>Blackwing Descent</p>
-              <div className={styles.count}><span className={styles.normal}>0/6</span>10N</div>
+              <div className={styles.count}><span className={styles.normal}>6/6</span>10N</div>
             </div>
             <div className={styles.raid}>
               <p>Throne of the Four Winds</p>
-              <div className={styles.count}><span className={styles.normal}>0/2</span>10N</div>
+              <div className={styles.count}><span className={styles.normal}>2/2</span>10N</div>
             </div>
             <div className={styles.raid}>
               <p>The Bastion of Twilight</p>
-              <div className={styles.count}><span className={styles.normal}>0/4</span>10N</div>
+              <div className={styles.count}><span className={styles.normal}>4/4</span>10N</div>
             </div>
           </div>
         </div>
