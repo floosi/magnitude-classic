@@ -66,7 +66,7 @@ export default function Home() {
           <div className="col col-3">
             <div className={styles.raid}>
               <p>Blackwing Descent</p>
-              <div className={styles.count}><span className={styles.normal}>6/6</span>10N</div>
+              <div className={styles.countheroic}><span className={styles.heroic}>4/6</span>10H</div>
             </div>
             <div className={styles.raid}>
               <p>Throne of the Four Winds</p>
