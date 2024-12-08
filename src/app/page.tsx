@@ -70,11 +70,11 @@ export default function Home() {
             </div>
             <div className={styles.raid}>
               <p>Throne of the Four Winds</p>
-              <div className={styles.count}><span className={styles.normal}>2/2</span>10N</div>
+              <div className={styles.countheroic}><span className={styles.heroic}>2/2</span>10H</div>
             </div>
             <div className={styles.raid}>
               <p>The Bastion of Twilight</p>
-              <div className={styles.countheroic}><span className={styles.heroic}>1/5</span>10H</div>
+              <div className={styles.countheroic}><span className={styles.heroic}>5/6</span>10H</div>
             </div>
           </div>
         </div>
